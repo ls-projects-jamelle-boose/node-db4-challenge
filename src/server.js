@@ -8,6 +8,6 @@ server.use(express.json());
 server.use(helmet());
 server.use(morgan('dev'));
 
-server.use('/', require('./routes'));
+server.use('/api', require('./routes'));
 
 module.exports = server;
