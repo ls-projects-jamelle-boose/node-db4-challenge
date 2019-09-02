@@ -1,0 +1,32 @@
+{
+  "name": "db4-challenge",
+  "version": "1.0.0",
+  "description": "node-db4-challenge",
+  "main": "index.js",
+  "scripts": {
+    "server": "node index.js",
+    "start": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ls-projects-jamelle-boose/node-db4-challenge.git"
+  },
+  "author": "Jamelle-Boose",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ls-projects-jamelle-boose/node-db4-challenge/issues"
+  },
+  "homepage": "https://github.com/ls-projects-jamelle-boose/node-db4-challenge#readme",
+  "dependencies": {
+    "config": "^3.2.2",
+    "express": "^4.17.1",
+    "helmet": "^3.20.1",
+    "knex": "^0.19.3",
+    "knex-cleaner": "^1.3.0",
+    "mysql": "^2.17.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.3.0",
+    "nodemon": "^1.19.1"
+  }
+}

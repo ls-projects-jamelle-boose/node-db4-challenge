@@ -62,3 +62,9 @@ typings/
 
 # Mac Cruft
 .DS_Store
+
+# eslint
+.eslintrc.js
+
+# knexfile
+knexfile.js
