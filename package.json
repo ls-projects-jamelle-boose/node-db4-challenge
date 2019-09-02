@@ -4,8 +4,8 @@
   "description": "node-db4-challenge",
   "main": "index.js",
   "scripts": {
-    "server": "node index.js",
-    "start": "nodemon"
+    "server": "nodemon index.js",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
